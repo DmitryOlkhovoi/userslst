@@ -33,6 +33,9 @@ Things I'd like to add/improve in this solution
  - Typescript
  - Aliases '@/components/User'
  - Airbnb eslint
+ 
+I think you like to see how I'd implement modals. There are at least 3 ways. Portals, React Portals and top most component connected to the store that shows modal component
+Async actions - redux thunk, saga, mobx
 
 I didn't add async actions, but I'd test it like that
 
