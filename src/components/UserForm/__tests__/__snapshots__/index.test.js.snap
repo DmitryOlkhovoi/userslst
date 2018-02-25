@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<form
+  className=""
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+      htmlFor="exampleName"
+    >
+      Name
+    </label>
+    <input
+      className="form-control"
+      defaultValue=""
+      id="exampleName"
+      name="name"
+      onChange={[Function]}
+      placeholder="name"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+      htmlFor="exampleEmail"
+    >
+      Email
+    </label>
+    <input
+      className="form-control"
+      defaultValue=""
+      id="exampleEmail"
+      name="email"
+      onChange={[Function]}
+      placeholder="with a placeholder"
+      required={true}
+      type="email"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+      htmlFor="exampleText"
+    >
+      Text Area
+    </label>
+    <textarea
+      className="form-control"
+      defaultValue=""
+      id="exampleText"
+      name="text"
+      onChange={[Function]}
+      type="textarea"
+    />
+  </div>
+  <button
+    className="btn btn-secondary"
+    onClick={[Function]}
+    type={undefined}
+  >
+    Submit
+  </button>
+</form>
+`;
+
+exports[`renders correctly with data 1`] = `
+<form
+  className=""
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+      htmlFor="exampleName"
+    >
+      Name
+    </label>
+    <input
+      className="form-control"
+      defaultValue="foo"
+      id="exampleName"
+      name="name"
+      onChange={[Function]}
+      placeholder="name"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+      htmlFor="exampleEmail"
+    >
+      Email
+    </label>
+    <input
+      className="form-control"
+      defaultValue="bar"
+      id="exampleEmail"
+      name="email"
+      onChange={[Function]}
+      placeholder="with a placeholder"
+      required={true}
+      type="email"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+      htmlFor="exampleText"
+    >
+      Text Area
+    </label>
+    <textarea
+      className="form-control"
+      defaultValue="lorem"
+      id="exampleText"
+      name="text"
+      onChange={[Function]}
+      type="textarea"
+    />
+  </div>
+  <button
+    className="btn btn-secondary"
+    onClick={[Function]}
+    type={undefined}
+  >
+    Submit
+  </button>
+</form>
+`;

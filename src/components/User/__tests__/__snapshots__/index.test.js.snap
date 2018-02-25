@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="user card"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      :name
+    </h5>
+    <h6
+      className="card-subtitle"
+    >
+      :email
+    </h6>
+    <p
+      className="card-text"
+    >
+      :text
+    </p>
+    <a
+      href="/edit/:id"
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn-secondary"
+        onClick={[Function]}
+        type={undefined}
+      >
+        Update
+      </button>
+    </a>
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+      type="button"
+    >
+      Delete
+    </button>
+  </div>
+</div>
+`;
