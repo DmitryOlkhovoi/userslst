@@ -28,7 +28,7 @@ Things I'd like to add/improve in this solution
  - Mobx for better react exp
  - React Storybook to develop components seprately
  - E2E tests and just more tests
- - Better desing/UI/UX
+ - Better design/UI/UX
  - PropTypes
  - Typescript
  - Aliases '@/components/User'
